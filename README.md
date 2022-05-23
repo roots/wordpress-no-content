@@ -38,9 +38,13 @@ However, the amount of effort needed to maintain and develop new features and pr
 
 </div>
 
-## About `roots/wordpress`
+## About
 
 `roots/wordpress-no-content` is an automatically updated Composer package for WordPress core.
+
+Name|WP.org Dist|Bundled Themes|Bundled Plugins|Beta & RC Releases
+--|:--:|--|--|:--:
+`no-content`|✅|none|none|❌
 
 ## Community
 
