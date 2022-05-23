@@ -14,8 +14,8 @@ jobs:
         uses: tibdex/github-app-token@v1
         id: generate-token
         with:
-          app_id: ${{ secrets.BOT_APP_ID }}
-          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
+          app_id: ${{ secrets.WORDPRESS_PACKAGER_BOT_APP_ID }}
+          private_key: ${{ secrets.WORDPRESS_PACKAGER_BOT_PRIVATE_KEY }}
 
       - name: Release
         uses: softprops/action-gh-release@v1
