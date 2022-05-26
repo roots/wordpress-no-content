@@ -20,8 +20,10 @@
 
 <p align="center">
   <strong>Composer package for installing WordPress</strong>
-  <br />
-  Built with ❤️
+</p>
+
+<p align="center">
+  <a href="https://roots.io/"><strong><code>Website</code></strong></a> &nbsp;&nbsp; <a href="https://github.com/roots/wordpress-no-content/tags"><strong><code>Releases</code></strong></a> &nbsp;&nbsp; <a href="https://discourse.roots.io/"><strong><code>Support</code></strong></a>
 </p>
 
 ## Supporting
@@ -38,13 +40,24 @@ However, the amount of effort needed to maintain and develop new features and pr
 
 </div>
 
-## About
+## Overview
 
 `roots/wordpress-no-content` is an automatically updated Composer package for WordPress core.
 
 Name|WP.org Dist|Bundled Themes|Bundled Plugins|Beta & RC Releases
 --|:--:|--|--|:--:
 `no-content`|✅|none|none|❌
+
+## Requirements
+
+A [WordPress Core Installer](https://packagist.org/?query=wordpress%20core%20installer&type=composer-plugin) package is required to handle installation path.  
+Roots provides `roots/wordpress-core-installer`, see the [usage docs](https://github.com/roots/wordpress-core-installer#readme).
+
+## Installation
+
+```sh
+$ composer require roots/wordpress-no-content
+```
 
 ## Community
 
