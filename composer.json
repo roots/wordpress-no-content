@@ -1,6 +1,5 @@
 {
     "name": "roots/wordpress-no-content",
-    "version": "nightly",
     "dist": {
         "type": "zip",
         "url": "https://wordpress.org/nightly-builds/wordpress-latest.zip"
